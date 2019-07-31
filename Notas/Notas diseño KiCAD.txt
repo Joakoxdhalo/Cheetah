@@ -1,0 +1,37 @@
+El diseño de la PCB de inet está para 5V
+
+* El programa no me dejaba guardar componentes en una librería, debido a permisos de administrador.
+Para descargarme el modelo del AS5600, me tocó instalar library downloader, y enseguida, instalar
+.NET Framework 4.7.2
+
+
+* Los archivos que se reconocen como librerías por KiCAD son los terminados con la extensión .lib. Para añadir estas "bibliotecas", lo que tenemos que hacer es ir a administrar bibliotecas. Seleccionar el archivo darle al símbolo del "+" para añadir una librería, luego darle al ícono "de una carpeta", y seleccionar el path de la librería y listo .lib
+
+
+
+******** Para añadir un elemento a KiCAD:
+
+A. En las librerías de los esquemáticos, (C:\Program Files\KiCad\share\kicad\library), van 2 archivos:
+
+1. El .dcm
+2. El .lib
+
+
+B. Según los archivos por defecto KiCAD en: "C:\Program Files\KiCad\share\kicad\modules", (La librería de los footprint) van:
+
+- La carpeta completa .pretty, y dentro el archivo (.KICAD_MOD)
+
+C. En la ruta: C:\Program Files\KiCad\share\kicad\modules\packages3d van todos los archivos 3d de los componentes, así que tengo que poner:
+
+- La carpeta completa .3dshapes y dentro los archivos: (.stp y .wrl)
+
+D. Por último hay que añadir los path de los archivos .pretty y 
+**********************
+Documentos que he añadido a las carpetas de KiCAD:
+Mylibrary.lib
+Mylibrary.dcm
+
+Al path: C:\Program Files\KiCad\share\kicad\library
+**********************
+
+Para modificar el CAD debido a que no carga el modelo 3D, lo único que tenemos que hacer es ir al PCB del circuito, click derecho, luego editar el path del elemento para que coja el modelo CAD, ya sea del archivo .stp o del .wrl, (Hay que buscar estos archivos dentro de las librerías de KiCAD)

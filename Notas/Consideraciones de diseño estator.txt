@@ -1,0 +1,23 @@
+Utilizaremos conexión estrella porque, según https://www.masinaelectrica.com/45kw-bushless-motor-design/:
+1. lower RPM
+2. higher torque (1,73 more than delta)
+3. higher the voltage
+4. lower the current
+
+
+Según la aplicación de la página, con 14 polos magnéticos, y un estator de 12 slots, y configuración estrella, a dos capas: se tiene un winding factor de 0.93301
+
+
+
+Coil pitch=2pi/6 = pi/3 (mechanic) 
+
+and 
+
+2pi/3 (electrico)g 
+
+
+Pole pitch =2pi/ 4=pi/2(mech) 
+
+and
+
+pi (elec)

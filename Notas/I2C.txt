@@ -1,0 +1,10 @@
+The 7-bit slave address of the AS5600 is 0x36
+
+
+Supported Modes
+• Random/Sequential read
+• Byte/Page write
+• Automatic increment (ANGLE – link removed)
+• Standard-mode
+• Fast-mode
+• Fast–mode Plus

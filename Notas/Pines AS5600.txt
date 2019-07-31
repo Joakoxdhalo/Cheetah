@@ -1,0 +1,12 @@
+Vamos a dejar
+5v
+GND
+SDA
+SCL
+
+
+Los de quitar:
+OUT	--> Desconectado
+PGO	--> Desconectado
+DIR	--> Conectado a VDD
+VDD3V3	--> Ver Config
