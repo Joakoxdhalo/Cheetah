@@ -1,0 +1,25 @@
+Cap 2: 8 - 29
+
+Cap 3: 31 - 69
+
+
+- (BLAC) Brushless AC
++ (PMSM) Permanent magnet synchronous motor
+- (PMAC) Permanent magnet AC
++ (BLDC) Brushless DC
+Inside Rotor: Inrunner
+Outside Rotor: Outrunner
+
+Windings are placed in slots, wrapped around teeth.
+
+The number of poles is not directly related to the number of slots,
+although there are common combinations of slot and pole counts that work well [6].
+
+kv -> Constante de velocidad del motor
+kt -> Constante de torque del motor
+km -> Constante del motor
+
+https://en.wikipedia.org/wiki/Motor_constants
+
+
+
