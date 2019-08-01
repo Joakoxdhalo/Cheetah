@@ -1,0 +1,8 @@
+Consideraciones del diseño del controlador:
+
+1. Debo tener en cuenta las corrientes debidas a la inductancia en el modelo simple, y para ello debo diseñar la utilización de los "flyback diodes".
+
+2. Debo tener en cuenta el retraso de fase que se genera por la inductancia en las fases. --> Ver la utilización de los "field-oriented control."
+
+
+
