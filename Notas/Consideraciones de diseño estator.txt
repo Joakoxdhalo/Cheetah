@@ -31,4 +31,4 @@ pi (elec)
 * De allí miramos el valor de la resistencia por fase para que se aguante eso: 0.888 Ohm. Para dos fases en serie tendríamos: 1.776 Ohms
 
 
-Un valor de diseño para la resistencia de cada fase, 
+Un valor de diseño para la resistencia de cada fase 
