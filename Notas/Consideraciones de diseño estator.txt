@@ -21,3 +21,14 @@ Pole pitch =2pi/ 4=pi/2(mech)
 and
 
 pi (elec)
+
+
+
+* Si decidimos bobinar el motor con cables en paralelo, (6 vueltas), en vez de con un sólo cable, (12 vueltas) podremos duplicar la constante de velocidad del motor Kv, sin embargo la constante del motor Km se mantendrá igual. Como no necesitamos velocidad, sino torque, NO vamos a bobinar en paralelo, sino con un cable sencillo.
+
+* Queremos que el motor aguante hasta 25A
+* Queremos trabajar el motor a 22.2V con una batería LIpo de 5 celdas.
+* De allí miramos el valor de la resistencia por fase para que se aguante eso: 0.888 Ohm. Para dos fases en serie tendríamos: 1.776 Ohms
+
+
+Un valor de diseño para la resistencia de cada fase, 
