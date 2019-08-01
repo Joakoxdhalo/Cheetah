@@ -3,6 +3,14 @@ Cap 2: 8 - 29
 Cap 3: 31 - 69
 
 
+Características del motor que estamos haciendo:
+* Es un Brushless DC.
+* Tiene los windings concentrados.
+* Es un Outrunner
+* Non-salient motor
+* No necesitamos field weakening para este motor, debido a que la aplicación será de torque y no de velocidad. (página 13 párrafo 4), por lo tanto podemos usar un motor con una baja inductancia.
+* Este motor NO es un (PMSM), [Permanent magnet synchronous motor], ó (PMAC), [Permanent magnet AC motor], como se les conoce. (Página 13 sección 2.2 párrafo 1).
+
 - (BLAC) Brushless AC
 + (PMSM) Permanent magnet synchronous motor
 - (PMAC) Permanent magnet AC
@@ -22,4 +30,18 @@ km -> Constante del motor
 https://en.wikipedia.org/wiki/Motor_constants
 
 
+La resistencia Ra, (del modelado de la resistencia por fase), contribuye fuertemente a la eficiencia del motor
 
+
+Para caracterizar bien el motor que se vaya a construir, Si queremos hallar la potencia discipada por el motor, lo que tendremos que hacer es poner el motor a funcionar en forma de "sin carga", allí lo que se hará, será hallar la corriente RMS de una de las fases, y con ayuda de la fórmula de la página 12 sección 2.1.3 y con una resistencia asumida Ra para cada fase, hallamos la potencia discipada del motor.
+
+
+Según la sección 2.2.2 un motor brushless también se puede alimentar con corrientes cuadradas, no necesariamente deben de tener una forma seno.
+
+
+Que efectos genera la inductancia en el motor:
+
+1. El campo magnético guardado en la inductancia se descarga cada vez que una fase deja de conducir corriente.
+2. Por otro lado el modelo simple del motor Brushless nos indica que la inductancia en las fases genera lag en la fase de la corriente.
+3. La inductancia no es una función del ángulo para motores con simetría en el rotor. (La función de la inductancia se simplifica), Para el documento un motor con simetría es un Non-salient motor, pero un motor asimétrico es un Salient motor.
+4. 
