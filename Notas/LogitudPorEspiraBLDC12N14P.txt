@@ -1,0 +1,26 @@
+* Para un estator de 12 slot con diametro 45mm se tienen las siguiente medidas de longitud de un alambre con determinado   calibre AWG
+
+* Para 1 espira LongitudEspira = 31 mm + (6 veces el diametro del cable) esto hace referencia a una espira posicionada en     la capa 3 del embobinado se toma como logitud promedio de una espira.
+
+* Longitudes constantes(cable adicional) = 22+80+50 =152 mm
+
+ Longitud de una fase total = (4 N(numero de vuelta)(31+6DiametroAWG)) + 152)[mm] * resistividad del alambre[Ohm/mm]
+
+ Longitud de una fase total =  {[NW*N*(P+Ecapas*DAWG)]+ C} * p
+
+donde:
+
+N: numero de vueltas por diente
+NW : numero de bobinas por fase (4)
+P : perimetro del diente (31) [mm]
+Ecapas: para vueltas ubicadas en la capa tres de la bobina(10)
+DAWG: diametro del calibre del alambre [mm]
+C : Logitud de cable adicional (152) [mm]
+p : resistividad del alambre [Ohm/mm]
+
+Longitud de una fase total =  {[4*N*(31+10*DAWG)]+ 152} * p
+
+
+
+
+
